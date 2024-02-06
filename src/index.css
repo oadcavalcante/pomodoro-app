@@ -62,6 +62,9 @@ body {
   color: #000;
   transition: background-color 300ms ease-in-out;
   margin: 20px auto;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
 }
 
 .working .pomodoro button {
@@ -71,4 +74,14 @@ body {
 
 .pomodoro .details {
   margin: 20px 0;
+}
+
+.text_working {
+  color: var(--cor-secundaria);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.text_resting {
+  color: var(--cor-primaria);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }

@@ -9,7 +9,7 @@ interface Props {
 export function Button(props: Props): JSX.Element {
   return (
     <button onClick={props.onClick} className={props.className}>
-      {props.text}
+      <b>{props.text}</b>
     </button>
   );
 }
